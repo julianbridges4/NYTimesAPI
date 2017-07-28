@@ -15,43 +15,46 @@
 		<div class="container">
 			<div class="jumbotron">
 				<h2 class="title">New York Times Article Archive Search</h2>
-			</div>	
+			</div>
 			<div class="row">
 				<div class="col-md-12">
-
 					<form>
-
-					  <div class="form-group">
-					    <label for="search">Search Words</label>
-					    <input type="text" class="form-control" id="search" placeholder="Enter Keywords">
-					  </div>
-
-					  <select class="form-control">
-							<option>5</option>
+						<div class="form-group">
+							<label for="search">Search Words</label>
+							<input type="text" class="form-control" id="search" placeholder="Enter Keywords">
+						</div>
+						<label for="articles">Number of Articles</label>
+						<select class="form-control">
 							<option>10</option>
-							<option>15</option>
-					  </select>
-
-					  <div class="form-group">
-					    <label for="start-year">Start Year</label>
-					    <input type="text" class="form-control" id="start-year" placeholder="1987">
-					  </div>
-
-					  <div class="form-group">
-					    <label for="end-year">End Year</label>
-					    <input type="text" class="form-control" id="end-year" placeholder="2017">
-					  </div>
-					  
-					
-					  <button type="submit" value="submit" class="btn btn-default">Search</button>
-
-					  <button type="reset" value="reset" class="btn btn-default">
-					  	Clear Results</button>
-
-
+							<option>20</option>
+							<option>30</option>
+						</select>
+						<div class="form-group">
+							<label for="start-year">Start Year</label>
+							<input type="text" class="form-control" id="start-year" placeholder="1987">
+						</div>
+						<div class="form-group">
+							<label for="end-year">End Year</label>
+							<input type="text" class="form-control" id="end-year" placeholder="2017">
+						</div>
+						
+						
+						<button type="submit" value="submit" class="btn btn-default">Search</button>
+						<button type="reset" value="reset" class="btn btn-default">
+						Clear Results</button>
 					</form>
 				</div>
-			</div>	
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							Top Articles
+						</div>
+						<div class="panel-footer"></div>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<script type="text/javascript" src="assets/javascript/app.js"></script>
