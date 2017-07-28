@@ -1,3 +1,20 @@
 .row {
 	margin-top: 30px;
 }
+
+body {
+}
+.jumbotron {
+	background: #002A7F;
+	color: white;
+}
+
+h2 {
+	font-size: 54px;
+	text-align: center;
+}
+
+.panel {
+	background: #002A7F;
+	color: #eee;
+}
